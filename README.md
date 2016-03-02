@@ -8,3 +8,5 @@ if i can make something useful, i will thank you.
 
 add a branch to this master by zhaozhigang.
 
+
+creating a new branch is quick and simple.
