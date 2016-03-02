@@ -10,3 +10,5 @@ add a branch to this master by zhaozhigang.
 
 creating a new branch is quick and simple.
 
+git is a free software.
+
