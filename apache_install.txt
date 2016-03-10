@@ -1,5 +1,6 @@
-1.按照下列链接里面的介绍进行安装各种依赖包。
+﻿1.按照下列链接里面的介绍进行安装各种依赖包。
 http://www.centoscn.com/apache/2015/0713/5851.html
+
 
 1.安装apr   http://apr.apache.org/download.cgi
 解压： tar -jxvf apr-1.5.0.tar.bz2
@@ -76,6 +77,10 @@ apache 下载地址：http://httpd.apache.org/
 
 然后执行make和make install命令完成安装。如果途中报错---
 注意：如果安装错误，想重新装的话，先删除安装的文件夹，然后在解压后的文件夹内执行清除编译：make clean all
+
+ 
+如果报错 configure: error: Size of "void *" is less than size of "long"
+在./configure = 配置的后面添加 ap_cv_void_ptr_lt_long=no 重新./configure即可。
 
 5.配置apache.
 vim /work/installed/apache/conf/httpd.conf
