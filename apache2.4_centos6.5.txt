@@ -1,4 +1,5 @@
 httpd.conf中修改配置文件
+add  at 2020.1.19
 Directory标签中的选项；
 		注意apache2.4跟2.2在配置文件中的差别。
 		如果使用allow from all 不能识别出来txt等其他格式的文旦个，就会出现访问路径不存在的错误。
